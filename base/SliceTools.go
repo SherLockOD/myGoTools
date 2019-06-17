@@ -1,4 +1,4 @@
-package SliceTools
+package base
 
 import "fmt"
 

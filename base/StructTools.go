@@ -1,4 +1,4 @@
-package StructTools
+package base
 
 import (
 	"fmt"
