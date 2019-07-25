@@ -15,7 +15,7 @@ func StringFmtOneLine(s string) string {
 	return fmt.Sprintf("%-20s", s)
 }
 
-
+// This function will collect template funcs of myself for template.Funcs()
 func TempFunc() template.FuncMap {
 	return template.FuncMap{
 		"cut": StringCut,
